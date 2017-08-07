@@ -1,0 +1,688 @@
+@font-face {
+  font-family: 'Helvatica';
+  src: url("../font/HelveticaNeue.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../font/Montserrat-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../font/Montserrat-Bold.ttf");
+  font-weight: bold;
+}
+
+body{
+  font-family: 'Montserrat';
+  background-color: #efefef;
+  max-width: 100%;
+  width: 100%;
+  padding: 0px;
+}
+div{
+  max-width: 100%;
+}
+.row{
+  margin: 0;
+}
+/*================ index ===================*/
+#navheader{
+  background-color: #00923f;
+  border:none;
+  border-radius: 0px;
+  max-width: 100%;
+}
+#navheader .navbar-header h3{
+  color: #efefef;
+  margin-left: 75px;
+  margin-top: 10px;
+}
+#akunkanan{
+  margin-right: 0px;
+}
+#akunkanan{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 28px;
+  margin-left: 30px;
+}
+#akunkanan #adminkanan{
+  color: #efefef;
+  text-decoration: none;
+  font-size: 20px;
+  top: 4px;
+  position: relative;
+  margin-left: 12px;
+  border: 1px solid #00923f;
+  padding: 7px 10px;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+#akunkanan a img{
+  height: 30px;
+  width: auto;
+  margin-right: 10px;
+  margin-top: -3px;
+}
+#akunkanan #adminkanan:hover,
+#akunkanan #adminkanan:focus{
+  text-decoration: none;
+  border: 1px solid #efefef;
+}
+#akunkanan #menuprofil{
+  right: 25px;
+  min-width: 140px;
+  background-color: transparent;
+}
+#akunkanan #menuprofil li a{
+  padding: 5% 9%;
+  transition: 0.3s ease;
+  border: 1px solid transparent;
+}
+#akunkanan #menuprofil li a:hover{
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 5% 9%;
+}
+#logoba,
+#logobaguru{
+  margin: 0 auto;
+  display: block;
+  width: 160px;
+  height: 213px;
+  margin-top: 1%;
+}
+#logobaguru{
+  margin-left: 44%;
+  transition: 1s ease;
+
+}
+#judulSI h1{
+  text-align: center;
+  color: #494848;
+  font-weight: bold;
+}
+#menuutamanya{
+  margin-top: 6%;
+  margin-bottom: 130px;
+}
+#menuutama1 a{
+    margin-left: 64%;
+}
+#menuutama2 a{
+  margin-left: 25%;
+  padding: 4% 10% 4% 5%;
+}
+#menuutama3 a{
+  margin-left: -14%;
+  padding: 4% 9% 4% 5%;
+}
+.menuutama a{
+  background-color: #b5b5b5;
+  padding: 4% 4%;
+  border: 2px solid #b5b5b5;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+.menuutama a:hover{
+  text-decoration: none;
+  background-color: transparent;
+  border-width: 2px;
+}
+.menuutama img{
+  width: 30px;
+  height: auto;
+}
+.menuutama a span{
+  color: #545454;
+  font-size: 13pt;
+  margin-left: 2%;
+}
+/*================ index ===================*/
+/*======================= Login ================*/
+#formlogin{
+  background-color: #fff;
+  margin-top: 5%;
+  margin-left: -3.3%;
+  margin-bottom: 6%;
+  padding-top: 13px;
+  }
+#pictlogin{
+  width: 150px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 7%;
+
+}
+#tombolmasuk{
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+}
+/*======================= Login ================*/
+/*===================== HALAMAN UTAMA ============*/
+/**========== Sidebar ============**/
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #00923f;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+.sidenav #logoba{
+  width: 130px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  margin-top: -7%;
+}
+.sidenav h3{
+  font-size: 17pt;
+  font-weight: 700;
+  color: #EFEFEF;
+}
+
+/* The navigation menu links */
+.sidenav .menusidebar a {
+    padding: 10px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 13pt;
+    color: #e1e1e1;
+    display: block;
+    transition: 0.3s;
+    background-color: #004a20;
+}
+.menusidebar{
+  margin-top: 15%;
+}
+#closesidebar img{
+  width: 30px;
+  height: auto;
+  transition: 0.3s
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+ #minsidebar{
+   background-color: #00923f;
+   padding: 10px;
+   height: 50px;
+   width: auto;
+   margin-top: 27.5%;
+ }
+.pelanggaran1 a img{
+  height: 28px;
+  width: auto;
+  margin-right: 6%;
+  margin-left: 4%;
+}
+.sidenav .menusidebar .pelanggaran1 #submenusidebar a,
+.sidenav .menusidebar .pelanggaran1 #submenusidebar1 a{
+  padding-left: 28%;
+  background-color: #00662c;
+  transition: 0.3s ease;
+}
+.sidenav .menusidebar .pelanggaran1 a:hover{
+  background-color: #00612a;
+}
+.sidenav .menusidebar .pelanggaran1 #submenusidebar .active,
+.sidenav .menusidebar .pelanggaran1 #submenusidebar a:hover,
+.sidenav .menusidebar .pelanggaran1 #submenusidebar1 .active,
+.sidenav .menusidebar .pelanggaran1 #submenusidebar1 a:hover{
+  background-color: #e1e1e1;
+  color: #004a20;
+}
+
+/*.sidenav .menusidebar .pelanggaran1 #submenusidebar1 .active{
+  background-color: #e1e1e1;
+  color: #004a20;
+}*/
+/**========== Sidebar ============**/
+/**========== HALAMAN admin, guru siswa ===========**/
+#halaman{
+  margin-bottom: 11%;
+
+}
+#halaman div #isihalaman h3,
+#halaman div #lihatpel h3,
+#halaman div #lihatadmin h3,
+#halaman div #lihatguru h3,
+#halaman div #lihatsiswa h3{
+  color: #494848;
+  font-weight: bold;
+}
+#halaman div #isihalaman h1,
+#halaman div #lihatpel h1,
+#halaman div #lihatadmin h1,
+#halaman div #lihatguru h1,
+#halaman div #lihatsiswa h1{
+  font-weight: bold;
+  font-size: 26pt;
+  margin-top: 0%;
+  color: #181818;
+}
+#halaman div #isihalaman hr,
+#halaman div #lihatpel hr,
+#halaman div #lihatadmin hr,
+#halaman div #lihatguru hr,
+#halaman div #lihatsiswa hr{
+  border-color: #000;
+  border-width: 5px;
+  margin-top: -0.7%;
+  width: 55%;
+  margin-left: 0%;
+  margin-bottom: 2%;
+}
+#halaman div #isihalaman h4,
+#halaman div #lihatpel h4,
+#halaman div #lihatadmin h4,
+#halaman div #lihatguru h4,
+#halaman div #lihatsiswa h4{
+  color: #717171;
+  font-weight: bold;
+  font-size: 14pt;
+}
+#halaman div #isihalaman form label{
+  font-size: 14pt;
+}
+#halaman div #isihalaman form input{
+  width: 55%;
+  height: 30px;
+  border-color: #000;
+  border-width: 1px;
+  padding-left: 10px;
+}
+#halaman div #isihalaman{
+  /*transition: 0.3s ease;*/
+  /*transition: marginTop 0.3s ease-out , marginLeft 0.3s ease-in;*/
+}
+#halaman div #isihalaman form button{
+  background-color: #004a20;
+  color: #e1e1e1;
+  padding: 1% 5%;
+  font-size: 13pt;
+  border: 2px solid #004a20;
+  transition: 0.3s ease;
+}
+#halaman div #isihalaman form button:hover{
+  background-color: transparent;
+  color: #004a20;
+  border: 2px solid #004a20;
+}
+/**========== HALAMAN admin, guru siswa ===========**/
+/**========== Lihat ===========**/
+#halaman div #lihatpel table,
+#halaman div #lihatadmin table,
+#halaman div #lihatguru table,
+#halaman div #lihatsiswa table,
+#table_detail_siswa #isinya{
+  width: 70%;
+  background-color: #fff;
+  text-align: center;
+}
+
+#halaman div #lihatpel table thead th,
+#halaman div #lihatpel table tbody tr td,
+#halaman div #lihatadmin table thead th,
+#halaman div #lihatadmin table tbody tr td,
+#halaman div #lihatguru table thead th,
+#halaman div #lihatguru table tbody tr td,
+#halaman div #lihatsiswa table thead th,
+#halaman div #lihatsiswa table tbody tr td,
+#table_detail_siswa #isinya tbody tr td,
+#table_detail_siswa #isinya thead th{
+  border: 1px solid #000;
+}
+#halaman div #lihatpel table tbody tr #namapel,
+#halaman div #lihatadmin table tbody tr #NIP,
+#halaman div #lihatadmin table tbody tr #namaadmin,
+#halaman div #lihatguru table tbody tr #NIP,
+#halaman div #lihatguru table tbody tr #namaguru,
+#halaman div #lihatsiswa table tbody tr #NISN,
+#halaman div #lihatsiswa table tbody tr #namasiswa,
+#table_detail_siswa #isinya tbody tr #detail_pelanggaran{
+  text-align: left;
+  padding-left: 2%;
+}
+#halaman div #lihatpel table thead th,
+#halaman div #lihatadmin table thead th,
+#halaman div #lihatguru table thead th,
+#halaman div #lihatsiswa table thead th,
+#table_detail_siswa #isinya thead th {
+  text-align: center;
+  font-weight: bold;
+}
+#halaman div #lihatpel table tbody tr td,
+#halaman div #lihatadmin table tbody tr td,
+#halaman div #lihatguru table tbody tr td,
+#halaman div #lihatsiswa table tbody tr td,
+#table_detail_siswa #isinya tbody tr td,
+#table_detail_siswa #isinya thead th{
+  padding: 7px 0px;
+}
+#halaman div #lihatpel table tbody tr td #btndetail,
+#halaman div #lihatadmin table tbody tr td #btndetail,
+#halaman div #lihatguru table tbody tr td #btndetail,
+#halaman div #lihatsiswa table tbody tr td #btndetail{
+    background-color: #28166f;
+    border-color: #28166f;
+    font-size: 11pt;
+    padding: 5px 9px;
+    transition: 0.3s ease;
+    color: #fff;
+  }
+#halaman div #lihatpel table tbody tr td #btnhapus,
+#halaman div #lihatadmin table tbody tr td #btnhapus,
+#halaman div #lihatguru table tbody tr td #btnhapus,
+#halaman div #lihatsiswa table tbody tr td #btnhapus{
+    background-color: #00662c;
+    border-color: #00662c;
+    font-size: 11pt;
+    padding: 5px 9px;
+    transition: 0.3s ease;
+    color: #fff;
+  }
+  #halaman div #lihatpel table tbody tr td #btnhapus:hover,
+  #halaman div #lihatadmin table tbody tr td #btnhapus:hover,
+  #halaman div #lihatguru table tbody tr td #btnhapus:hover,
+  #halaman div #lihatsiswa table tbody tr td #btnhapus:hover{
+    background-color: #009942;
+    border-color: #009942;
+  }
+  #halaman div #lihatpel table tbody tr td #btndetail:hover,
+  #halaman div #lihatadmin table tbody tr td #btndetail:hover,
+  #halaman div #lihatguru table tbody tr td #btndetail:hover,
+  #halaman div #lihatsiswa table tbody tr td #btndetail:hover{
+    background-color: #4728be;
+    border-color: #4728be;
+  }
+
+/**========== Lihat ===========**/
+#halaman #adminright,
+#halamanguru #adminright{
+  margin-top: 1.7%;
+  position: fixed;
+  right: 0%;
+}
+#halaman #adminright a #adminpict,
+#halamanguru #adminright a #adminpict{
+  width: 30px;
+  height: auto;
+  margin-right: 7%;
+  margin-top: -2%;
+}
+#halaman #adminright a,
+#halamanguru #adminright a{
+  font-size: 13pt;
+  font-weight: bold;
+  color: #545454;
+  border: 1px solid #efefef;
+  padding: 6% 10%;
+  border-radius: 8px;
+
+}
+#halaman #adminright a:hover,
+#halaman #adminright a:focus,
+#halamanguru #adminright a:hover,
+#halamanguru #adminright a:focus{
+  text-decoration: none;
+  border-color: #545454;
+}
+#halaman #adminright a,
+#halamanguru #adminright a{
+  transition: 0.5s ease;
+}
+#halaman #adminright #menuprofil,
+#halamanguru #adminright #menuprofil{
+  margin-left: 7%;
+  min-width: 145px;
+  margin-top: 6%;
+  background-color: transparent;
+  padding-left: 3%;
+}
+#halaman #adminright #menuprofil a:hover,
+#halamanguru #adminright #menuprofil a:hover{
+  margin-left: -5%;
+}
+/*================= Tambah Admin ===========*/
+#lihatadmin #btntambahadmin,
+#lihatguru #btntambahguru,
+#lihatsiswa #btntambahsiswa{
+  padding: 1% 3% 1% 2.5%;
+  margin-bottom: 2%;
+  background-color: #00662c;
+  color: #fff;
+  transition: 0.3s ease;
+}
+#lihatadmin #btntambahadmin:hover,
+#lihatguru #btntambahguru:hover,
+#lihatsiswa #btntambahsiswa:hover{
+  background-color: transparent;
+  border-color: #00662c;
+  color: #00662c;
+}
+#lihatadmin #btntambahadmin i,
+#lihatguru #btntambahguru i,
+#lihatsiswa #btntambahsiswa i{
+  margin-right:5%;
+}
+/*========== Form Tambah admin===========*/
+#formtambahadmin div form,
+#formtambahguru div form,
+#formtambahsiswa div form{
+  width: 75%;
+  margin: 0 auto;
+  display: block;
+}
+
+#formtambahadmin div form button,
+#formtambahguru div form button,
+#formtambahsiswa div form button,
+#ubahadmin div form button{
+  width: 100%;
+  padding: 2% 0%;
+}
+#formtambahadmin div #xclosemodal,
+#formtambahguru div #xclosemodal,
+#formtambahsiswa div #xclosemodal,
+#ubahadmin div #xclosemodal{
+  position: absolute;
+  right: 0%;
+  background-color: transparent;
+  font-weight: bold;
+}
+/*========== Form Tambah admin===========*/
+/*================= Tambah Admin ===========*/
+/*============== edit admin =============*/
+body #ubahadmin{
+  margin-bottom: 8%;
+}
+#ubahadmin div form{
+  width: 40%;
+  margin: 0 auto;
+  display: block;
+}
+/*============== edit admin =============*/
+
+/*========== Tambah Siswa ================*/
+#formtambahsiswa div form div #inputpel{
+  /*width: 75%;*/
+  margin: 0%;
+  padding-right: 0%;
+  float: left;
+  margin-bottom: 3%;
+}
+#formtambahsiswa div form div #btnhapuspel{
+  /*width: 20%;*/
+  margin-left: 5%;
+  height: 34px;
+  padding: 0%;
+  margin-bottom: 3%;
+}
+#formtambahsiswa div form div #btntambahopsipelanggaran{
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 5%;
+  background-color: #00662c;
+  transition: 0.3s ease;
+}
+#formtambahsiswa div form div #btntambahopsipelanggaran:hover{
+  background-color: transparent;
+  border-color: #00662c;
+  color: #00662c;
+}
+#formtambahsiswa div form div #daftar_nama ul {
+  background-color: #eee;
+}
+#formtambahsiswa div form div #daftar_nama ul li{
+  padding: 10px
+}
+#formtambahsiswa div form div #daftar_nama ul li:hover{
+  background-color: #4efc82;
+}
+/*========== Tambah Siswa ================*/
+/*===================== HALAMAN UTAMA ============*/
+/*===================== HALAMAN GURU ============*/
+#halamanguru #menulihatsiswa{
+  margin-left: 41.5%;
+  margin-top: 5%;
+  transition: 1s ease;
+}
+#halamanguru #text{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20pt;
+  margin-left: 0%;
+  margin-top: 2%;
+  transition: 1s ease;
+}
+/*===================== HALAMAN GURU ============*/
+/*===================== DETAIL SISWA ===========*/
+#button_back, #backdetailpelanggaran{
+  border: 2px solid transparent;
+  padding: 1% 1.5%;
+  position: absolute;
+  top: 8%;
+  left: 0.5%;
+  border-radius: 7px;
+  color: #fff;
+  background-color: #00662c;
+  transition: 0.3s ease;
+}
+#button_back:hover, #backdetailpelanggaran:hover{
+  background-color: transparent;
+  border-color: #00662c;
+  color: #00662c;
+  text-decoration: none;
+}
+#button_back i, #backdetailpelanggaran i{
+  margin-left: -10%;
+  margin-right: 10%;
+}
+#header_detail div #logoba{
+  width: 57%;
+  height: auto;
+  margin-top: 4%;
+  margin-left: 65%;
+}
+#header_detail #isihalaman{
+  margin-left: 1.6%;
+}
+#header_detail #isihalaman hr{
+  border-color: #000;
+  border-width: 5.5px;
+  margin-top: -0.7%;
+  width: 53%;
+  margin-left: 0%;
+}
+#header_detail #isihalaman h3{
+  margin-top: 4%;
+  color: #494848;
+  font-weight: bold;
+}
+#header_detail #isihalaman h1{
+  font-weight: bold;
+  font-size: 26pt;
+  margin-top: 0%;
+}
+#ketnama{
+  margin-left: 10%;
+}
+#table_detail_siswa{
+  margin-left: 11.1%;
+}
+#table_detail_siswa #isinya{
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+#table_detail_siswa #isinya tbody tr td #hapuspel{
+  border: 1px solid transparent;
+  padding: 3% 6%;
+  background-color: #fc202f;
+  color: #fff;
+  border-radius: 5px;
+  transition: 0.3s ease-out;
+}
+#table_detail_siswa #isinya tbody tr td #hapuspel:hover{
+  color: #fc202f;
+  background-color: transparent;
+  border-color: #fc202f;
+  text-decoration: none;
+}
+/*===================== DETAIL SISWA ===========*/
+/*===================== Halaman SISWA ===========*/
+#tombol_print{
+  margin-top: 1.8%;
+  margin-left: 11.2%;
+}
+#tombol_print a{
+  font-size: 11pt;
+  border: 1px solid transparent;
+  padding: 5% 10%;
+  border-radius: 5px;
+  background-color: #194fff;
+  color: #fff;
+  transition: 0.3s ease-out
+}
+#tombol_print a:hover{
+  border-color: #194fff;
+  text-decoration: none;
+  background-color: transparent;
+  color:#194fff;
+}
+#tombol_print a i{
+  margin-right: 10px;
+}
+/*#ket_tidak_ada{
+  font-size: 18pt;
+  margin-top: 3%;
+  margin-bottom: 5%;
+}*/
+/*===================== Halaman SISWA ===========*/
+
+/*======================== footer ==============*/
+#footernya{
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  color: #494848;
+}
+#footernya h4{
+  font-size: 11pt;
+  font-weight: bold;
+}
+/*======================== footer ==============*/
